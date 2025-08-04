@@ -57,7 +57,7 @@ const ShoppingCart = () => {
             onClick={handleClearCart}
         >Clear Cart</button>
         </div>
-        <div>{totalAmount ? <div>'The Total amount is {totalAmount}</div> : ''}</div>
+        <div>{totalAmount ? <div>'The Total amount is ${totalAmount}</div> : ''}</div>
         </>
     );
 };
